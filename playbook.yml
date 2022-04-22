@@ -18,7 +18,7 @@
 
 - hosts: web
   become: yes
-  remote_user: ahre #replace with yours defined in terraform variable user
+  remote_user: kontorskiy777 #replace with yours defined in terraform variable user
 
   tasks:
   - name: Ensure nginx is installed.
